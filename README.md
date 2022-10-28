@@ -6,11 +6,9 @@
 [![Tests](https://github.com/qiskit-community/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/qiskit-community/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
 [![Coverage](https://coveralls.io/repos/github/qiskit-community/quantum-prototype-template/badge.svg?branch=main)](https://coveralls.io/github/qiskit-community/quantum-prototype-template?branch=main)
 
-# Quantum Prototype Template
+# Classical Ensemble of Quantum-Classical machine learning models
 
-This template repository is a tool for creating Python projects quickly by providing much of the necessary boilerplate code. The code examples in this template repository are written in accordance with pylint style checks, and the sample `prototype_template` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software.
-
-We encourage you to use this template repository to begin your own research projects!
+This repository contains tutorial style notebooks to explain how to create ensembles using quantum and classical machine learning algorithms. These codes are based on the paper [1] and show two-level and three-level stacked ensembles that can be trained and tested on simulator as well as hardware.  The dataset used to reproduce the results in the paper are given in the codes folder and code to run classical Support Vector Machine (SVM), Quantum SVM and Variational Quantum Classifier (VQC) is present as well. Overall the entire script is generic and can be used for any other classification task.
 
 ### Table of Contents
 
